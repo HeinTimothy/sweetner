@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+body {
+  font-family: "Montserrat Alternates", serif;
+  font-size: 1.8rem;
+  color: #3f3f3f;
+
+  overflow-y: hidden;
+
+  background: url(images/heart.png);
+  background-repeat: space;
+}
+
+#main {
+  position: relative;
+  top: -2px;
+  margin: 0 20%;
+  padding: 0 5%;
+  width: 50%;
+  height: 100vh;
+  overflow-y: scroll;
+  background-color: #fff;
+}
+
+#main::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+#main {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
+#cover {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+#intro {
+  font-family: "Great Vibes", cursive;
+  font-size: 5rem;
+  margin: 3rem;
+}
+
+#letters {
+  margin: 0 5%;
+  width: 90%;
+  border-collapse: collapse;
+}
+
+#letters a {
+  text-decoration: none;
+  color: #3f3f3f;
+}
+p
+#letters .date {
+  float: right;
+}
+
+
+.letter-card {
+  font-family: "Montserrat Alternates", serif;
+  font-weight: 200;
+  font-size: 1.8rem;
+  display: block;
+  width: 100%;
+  text-align: left;
+
+  border: 1px solid #3f3f3f;
+  border-radius: .6rem;
+  background-color: #fff;
+
+  padding: .6rem 1.2rem;
+}
+
+.letter-card h3 {
+  display: inline;
+  font-size: 1.8rem;
+  margin: 0;
+  font-weight: 400;
+}
+
+.letter-card:hover {
+  color: #0F9D58;
+  border-color: #0F9D58;
+  background-color: rgba(15, 157, 88, 20%);
+  cursor: pointer;
+}
