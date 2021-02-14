@@ -2,7 +2,12 @@
   font-size: 3rem;
 }
 
+body {
+  margin: 0;
+}
+
 button {
+  position: fixed;
   border: none;
   background-color: rgba(0, 0, 0, 0);
   margin: 2rem 3rem;
